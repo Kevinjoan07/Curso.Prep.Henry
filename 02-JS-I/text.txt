@@ -1,0 +1,35 @@
+Variables: es la forma de almacenar  un valor en algun lugar de la memoria para luego ser usado
+(en una operacion , completar una frase,.. etc) 
+ejemplo: Var nombredeVar = valor de Var;
+
+
+
+String: son un tipo de variable  donde el contenido  es una cadena de caracteres  entre comillas  
+ejemplo: Var  nombre = 'Juan'  ;
+
+
+
+Function: Son objetos que permiten realizar eventos(cambiarlas de orden , realizar operaciones,..etc)  
+con las variables de cualquier tipo, ademas  las funciones tienen   los elementos parametro el cual sirve 
+para indicarle a la Function que va recibir unos valores para las variables que realizaran el evento 
+y el return es para devolver el resultado de dicho evento 
+Function(parametro ){
+    Var suma = 2 + 5;
+    return suma
+}
+
+
+
+Declaraciones if : la Declaraciones IF es una estructura de control para la toma de decisiones
+es un condicioal que sirve para  realizar una u otra  operacion en funcion de una expresion 
+Funciona de la siguiente manera, primero se evalúa una expresión, si el resultado es positivo
+se realizan las acciones relacionadas con el caso positivo
+uan declaracion if tiene la siguiente forma:
+if(expresion){
+    acciones a realizar
+}
+
+
+
+Valores Booleanos: son valores que pueden ser  representados por valores de lógica binaria, esto es 2 valores
+que normalmente se  representan como  falso o verdadero
