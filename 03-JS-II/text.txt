@@ -1,0 +1,29 @@
+for: La mayoría del software se ejecuta en bucles, evaluando expresiones una y otra vez hasta que devuelve lo que estamos
+buscando o se detiene después de cierto tiempo. Javascript tiene dos expresiones de bucle incorporadas una de ellas es
+el bucle for 
+Los bucles for tienen una sintaxis única, similar a la instrucción if, pero un poco más compleja. Primero tenemos 
+la palabra clave for, seguida de paréntesis y luego abrir y cerrar llaves. Dentro de los paréntesis necesitaremos 
+tres cosas. Primero, debemos declarar una variable, esto es sobre lo que se repetirá el bucle. Entonces tendremos 
+una expresión condicional, el ciclo continuará sucediendo hasta que esta declaración sea false. Tercero, incrementaremos 
+nuestra variable. Las tres declaraciones están separadas por un punto y coma. 
+ejemplo:
+for(let i = 0; i <= 10; i++){
+    console.log(i);
+}
+
+
+
+&& : Este simbolo en javascript es un Operador Logico conocido tambien como "Y"("AND") el cual es usado en una expresion 
+de flujo de control para comparar 2 o mas expresiones y su funcionamiento evalua que las expresiones a comparar 
+sean en su totalidad verdaderas lo cual nos devolvera un true, o un  false  si almenos una de las expresiones es falsa
+
+
+|| : Este simbolo en javascript es un Operador Logico conocido tambien como "O"("OR") el cual es usado en una expresion 
+de flujo de control para comparar 2 o mas expresiones y su funcionamiento determina que si una de las expresiones 
+es verdadera , entonces nos devolvera un true,pero si todas las expresiones son verdaderas nos devolvera un false
+
+
+!: Este simbolo en javascript es un Operador Logico conocido tambien como "NOT"("NO") el cual es usado en una expresion 
+de flujo de control para comparar 2 o mas expresiones y su funcionamiento es muy simple, solamente  nos devolvera el 
+valor booleano opuesto  de lo que se le pasa
+
