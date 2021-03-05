@@ -1,0 +1,20 @@
+Arrays: es una manera de guardar un conjunto de objetos de todo tipo(String,numeros,booleanos,funciones,..etc)
+se accede a cada elemnto individual del array mediante un numero entero denominado indice, 0 es el indice del primer
+elemnto del array y n-1 es el indice del ultimo , siendo n la dimension del array 
+
+COMO SE DECLARA UN ARRAY:
+en javaScript se declara de la siguiente manera:
+
+var nombreArray = ['Elemento1', elemento2, true, function elemnto3()];
+
+COMO SE ACCEDE A LOS ELEMENTOS DE UN ARRAY:
+
+var nombreArray = ['Elemento1', elemento2, true, function elemnto3()];
+
+console.log(nombreArray[2]); // true
+
+
+
+Los arrays son elementos muy utlizados en los bucles for 
+
+
