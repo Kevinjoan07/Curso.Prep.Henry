@@ -1,0 +1,43 @@
+OBJETOS: Un objeto es una colección de datos relacionados y/o funcionalidad 
+(que generalmente consta de algunas variables y funciones, que se denominan 
+propiedades y métodos cuando están dentro de objetos).
+
+
+
+PROPIEDADES: son variables  pertenecientes al objeto,  en los objetos las variables tienen un concepto llamado 
+clave:valor donde La clave (key) es el identificador y el valor (value) es el valor que queremos guardar en esa clave
+Los objetos pueden contener muchos pares de clave-valor, deben estar separados por una coma 
+Las claves son únicas en un objeto, solo puede haber una clave de ese nombre, aunque,
+varias claves pueden tener el mismo valor. Los valores pueden ser cualquier tipo de dato de Javascript; 
+cadena, número, booleano, matriz, función o incluso otro objeto
+
+
+
+METODOS:son funciones pertenecientes al objeto, Al igual que otras veces que llamamos métodos,
+llamaremos a este método usando notación de puntos y paréntesis finales 
+(Nota: podemos llamar a un método con argumentos como lo haríamos con una función normal)
+
+
+BUCLES FOR-IN: A veces queremos iterar sobre cada par clave-valor en nuestro objeto.
+Con las matrices, utilizamos un estándar para el bucle y una variable de número de índice.
+Los objetos no contienen índices numéricos, por lo que el bucle estándar no funcionará para los objetos.
+Javascript tiene un segundo tipo de bucle for integrado llamado “for … in loop”.
+Es una sintaxis ligeramente diferente, comienza igual pero entre paréntesis declararemos una variable,
+la palabra clave in y el nombre del objeto.
+Esto recorrerá cada clave del objeto y finalizará cuando se hayan iterado todas las claves
+
+
+NOTACION 
+(DE PUNTOS Y DE CORCHETES)
+lA NOTACION DE CORCHETES mas conocida como braket notation  ---> console.log (objeto['Nombre de la propiedad'])
+es un tipo de notacion usada para hacer el llamado a las propiedades u metodos de los objetos  y la forma en que 
+se usa es como llamar a un elemento en una matriz, aunque con corchetes debemos usar una cadena o número,
+o una variable que apunte a una cadena o número. Se puede llamar a cada clave envolviéndola con comillas
+por ejemplo: 
+    user['username'];
+   
+
+Por otra parte LA NOTACION DE PUNTOS  mayormente conocida como dot notation es  la mas usada por los programadores
+ya que su uso es mas simple, el cual es el nombre del objeto, un punto y el nombre de la clave. 
+por ejemplo: 
+    user.username;
