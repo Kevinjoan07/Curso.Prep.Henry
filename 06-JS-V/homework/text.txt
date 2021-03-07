@@ -1,0 +1,20 @@
+_Constructors_ (de Clases): 
+El método o funcion constructor es un método especial para crear e inicializar un objeto creado con un archivo .
+Solo puede haber un método especial con el nombre "constructor" en una clase.
+Se produce un SyntaxError si la clase contiene más de una aparición de un método.classconstructor
+ejemplo 
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+
+
+
+PROTOTYPE:Un objeto en JavaScript tiene otro objeto, llamado prototype (prototipo, en español).
+Cuando pedimos a un objeto una propiedad que no tiene,
+la busca en su prototipo. Así, un prototipo es otro objeto que
+ se utiliza como una fuente de propiedades alternativa.
+
+
+
