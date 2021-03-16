@@ -1,0 +1,25 @@
+* FUNCIONES CALLBACK *
+
+Los callbacks (a veces denominados funciones de retrollamada o funciones callback)
+no son más que un tipo de funciones que se pasan por parámetro a otras funciones. 
+El objetivo de esto es tener una forma más legible de escribir funciones, más cómoda y
+flexible para reutilizarlas.
+Además, los parámetros de dichas funciones toman un valor especial en el contexto del interior de la función.
+ejemplo:
+
+const list = ["A", "B", "C"];
+
+for (let i = 0; i < list.length; i++) {
+  console.log("i=", i, " list=", list[i]);
+}
+
+Ahora veamos, como podemos hacer este mismo bucle utilizando el método forEach() 
+del  al cuál le pasamos una función callback
+
+list.forEach(function(e,i) {
+  console.log("i=", i, "list=", e);
+});
+
+
+
+
