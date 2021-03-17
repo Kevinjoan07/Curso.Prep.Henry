@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    margin-top:50px ;
+    border: 4px tomato;
+
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+    font: italic;
+}
+
+h4{
+    text-align: center;
+}
